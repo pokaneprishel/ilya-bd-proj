@@ -1,3 +1,5 @@
+/* grid settings */
+
 body {
     display: grid;
     align-items: center;
@@ -17,6 +19,7 @@ body {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
 }
 
+/* background gradient settings */
 
 @keyframes gradient {
     0% {
@@ -32,11 +35,15 @@ body {
     }
 }
 
+/* img settings */
+
 body img {
     object-fit: cover;
     max-width: 27rem;
     height: auto;
 }
+
+/* mobile -v */
 
 @media screen and (max-width: 992px) {
     body {
